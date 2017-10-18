@@ -8,6 +8,7 @@ body
 
 {
 	width: 960px;
+
 }
 
 header
@@ -19,5 +20,11 @@ header
 nav
 {
 	padding: 10px
-	
+
+}
+
+.footer
+{
+	background-color: #666666;
+	width: 100%
 }
