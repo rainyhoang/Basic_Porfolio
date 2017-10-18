@@ -1,19 +1,23 @@
 
-
-h1 {
-    font-style: italic;
-    font-size: 40px;
-    color: ;
-    border-color:#cccccc;
-    font-family: Georgia;
-    
+body
+{
+	background: url("../img/vintage.png") #efeee7 center center repeat;
 }
 
+.content
 
-body {
-
-    
-    
-
+{
+	width: 960px;
 }
 
+header
+{
+	background: #ffffff;
+	display: inline;
+}
+
+nav
+{
+	padding: 10px
+	
+}
