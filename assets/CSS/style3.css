@@ -7,25 +7,65 @@ body
 h1
 {
 	font-family: Georgia;
-	margin-left: 80px;
-	background-color: green;
+/*	margin-bottom: 50px;
+*//*	background-color: green;
+*/	float: left;
+	font-size: 28px;
+	font-weight: bold;
+	background-color: lightblue;
+	background-size: 10px;
+	padding: 4px;
+
+}
+
+h2, h4, h5
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: darkblue;
+
+}
+
+h3
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: darkblue;
+	margin-top: 10px;
 }
 
 header
+
 {
 	width: 100%;
-	margin: 0 auto;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #cccccc;
 }
 
-a {
+a 
+
+{
 	text-decoration: none;
 }
+
+p
+{
+	padding: 10px;
+	font-family: Helvetica;
+	word-spacing: 1.5px;
+	line-height: 150%;
+}
+
 .content
 
 {
 	width: 960px;
 	margin: 0 auto;
-	display: inline;
+	
 
 }
 
@@ -33,28 +73,231 @@ a {
 
 {
 	float: left;
-	}
+	margin-left: 5px;
+/*	background-color: green;
+*/	}
 
 .nav
 {
-	padding: 15px;
+	padding: 10px;
 	background-color: white;
 	text-align: right;
+	font-family: sans-serif;
 
 
 
 }
 
-.footer
+footer
 {
-	background-color: #666666;
-	width: 100%
-	color: white;
-	padding: 5px;
-	text-align: center;
+    background-color: #666666;
+    width: 100%;
+    height: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    float: left;
+/*    margin-left: 280px;
+*/
+   position:fixed;
+   bottom:0;
 
-}
+   }
 
 .maincontent {
-	width:60%;
+    width: 650px;
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 12px;
+    border-style: solid;
+    border-color: #dddddd;
 }
+.sidebar
+{
+    width: 270px;
+    background-color: white;
+    margin: 4 auto;
+    float: right;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#profile
+{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: auto;
+	padding: 5px;
+}
+
+.image
+{
+	margin-left: 60px;
+}
+
+.footer1
+{
+font-size: 12px;
+margin-bottom: 10px;
+}
+/*Porfolio Page*/
+
+
+div.remix {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 18px;
+    float: right;
+
+} 
+
+div.remix1 {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50;
+    color: darkblue;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    text-align: center;
+
+}
+
+div.tigerwall
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 18px;
+
+} 
+
+div.tigerwall1 
+{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50;
+    color: darkblue;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    text-align: center;
+}
+
+div.journey
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 5px;
+    margin-bottom: 60px;
+    padding: 0 auto;
+
+} 
+
+div.journey1 
+{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50;
+    color: darkblue;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    text-align: center;
+}
+
+div.TSF
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 5px;
+    margin-bottom: 60px;
+    padding: 0 auto;
+    float: right;
+
+} 
+
+div.TSF1 
+{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50;
+    color: darkblue;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    text-align: center;
+}
+
+div.translate
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 5px;
+    margin-bottom: 60px;
+    padding: 0 auto;
+    float: right;
+    margin-right: 21px;
+
+} 
+
+div.translate1 
+{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50;
+    color: darkblue;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    text-align: center;
+   
+}
+
+div.crystal
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 5px;
+    margin-bottom: 60px;
+    padding: 0 auto;
+
+} 
+
+div.crystal1 
+{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50;
+    color: darkblue;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    text-align: center;
+}
+
+
