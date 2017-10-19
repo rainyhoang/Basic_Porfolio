@@ -15,6 +15,8 @@ h1
 	background-color: lightblue;
 	background-size: 10px;
 	padding: 4px;
+	padding-right: 10px;
+	margin-right: 10px;
 
 }
 
@@ -301,3 +303,15 @@ div.crystal1
 }
 
 
+/*Contact Page*/
+
+input[type="email"]
+{
+	width: 630px;
+	border: solid;
+	border-color: darkblue;
+	border-radius: 25px;
+
+}
+
+textarea { background-color: red; }
