@@ -10,24 +10,29 @@ h1
 /*	margin-bottom: 50px;
 *//*	background-color: green;
 */	float: left;
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: bold;
-	background-color: lightblue;
-	background-size: 10px;
-	padding: 4px;
-	padding-right: 10px;
-	margin-right: 10px;
+/*	background-color: lightgray;
+*/	background-size: 10px;
+	padding: 8px;
+	margin-right: 10px;-moz-border-radius:10px;  /* for Firefox */
+	-webkit-border-radius:10px; /* for Webkit-Browsers */
+	border-radius:10px; /* regular */
+	margin-right: 5px;
+	background-size: 0px 10px;
+	color: #4aaaa5;
+
 
 }
 
 h2, h4, h5
 {
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	font-family: Georgia;
-	color: darkblue;
 	margin-left: 10px;
-
+	margin-top: 10px;
+	color: #4aaaa5;
 }
 
 h3
@@ -36,23 +41,27 @@ h3
 	font-size: 20px;
 	font-weight: bold;
 	font-family: Georgia;
-	color: darkblue;
 	margin-top: 10px;
+	color: #4aaaa5;
 }
 
 header
 
 {
 	width: 100%;
-	background-color: #ffffff;
-	border-style: solid;
+/*	background-color: #ffffff;
+*/	border-style: solid;
 	border-color: #cccccc;
+	margin-top: 10px;
+
 }
 
 a 
 
 {
 	text-decoration: none;
+	color: #4aaaa5; 
+
 }
 
 p
@@ -62,6 +71,7 @@ p
 	word-spacing: 1.5px;
 	line-height: 150%;
 	padding: 3px;
+	color: #777777;
 }
 
 .content
@@ -69,7 +79,9 @@ p
 {
 	width: 960px;
 	margin: 0 auto;
-	
+/*	background-color: 
+*/
+
 
 }
 
@@ -88,15 +100,16 @@ p
 	text-align: right;
 	font-family: sans-serif; 
 	font-weight: 900; 
-	color: black;  
+	color: #4aaaa5; 
 	text-decoration: none;
-	border-radius: 25px;
-
-
-
-
+	border: 2px solid;
+	-moz-border-radius:10px;  /* for Firefox */
+	-webkit-border-radius:10px; /* for Webkit-Browsers */
+	border-radius:10px; /* regular */
+	border-color: #cccccc;
 
 }
+
 
 footer
 {
@@ -125,15 +138,25 @@ footer
     font-size: 12px;
     border-style: solid;
     border-color: #dddddd;
+    border: 2px solid;
+	-moz-border-radius:10px;  /* for Firefox */
+	-webkit-border-radius:10px; /* for Webkit-Browsers */
+	border-radius:10px; /* regular */
+	border-color: #dddddd;
 }
 .sidebar
 {
     width: 270px;
-    background-color: white;
+    height: 110px;
+    background-color: #ffffff;
     margin: 4 auto;
     float: right;
     border-style: solid;
-    border-color: #dddddd;
+    border: 2px solid;
+	-moz-border-radius:10px;  /* for Firefox */
+	-webkit-border-radius:10px; /* for Webkit-Browsers */
+	border-radius:10px; /* regular */
+	border-color: #dddddd;
 }
 
 #profile
@@ -153,8 +176,9 @@ footer
 
 .footer1
 {
-font-size: 12px;
-margin-bottom: 10px;
+font-size: 14px;
+color: #4aaaa5;
+
 }
 /*Porfolio Page*/
 
@@ -173,7 +197,7 @@ div.remix1 {
     top: 100px;
     width: 200px;
     height: 50;
-    color: darkblue;
+	color: #4aaaa5;
     font-size: 25px;
     border: solid;
     border-color: white;
@@ -199,7 +223,7 @@ div.tigerwall1
     top: 100px;
     width: 200px;
     height: 50;
-    color: darkblue;
+	color: #4aaaa5;
     font-size: 25px;
     border: solid;
     border-color: white;
@@ -224,7 +248,7 @@ div.journey1
     top: 100px;
     width: 200px;
     height: 50;
-    color: darkblue;
+    color: #4aaaa5;
     font-size: 25px;
     border: solid;
     border-color: white;
@@ -250,7 +274,7 @@ div.TSF1
     top: 100px;
     width: 200px;
     height: 50;
-    color: darkblue;
+	color: #4aaaa5;
     font-size: 25px;
     border: solid;
     border-color: white;
@@ -277,7 +301,7 @@ div.translate1
     top: 100px;
     width: 200px;
     height: 50;
-    color: darkblue;
+	color: #4aaaa5;
     font-size: 25px;
     border: solid;
     border-color: white;
@@ -303,7 +327,7 @@ div.crystal1
     top: 100px;
     width: 200px;
     height: 50;
-    color: darkblue;
+	color: #4aaaa5;
     font-size: 25px;
     border: solid;
     border-color: white;
@@ -343,7 +367,7 @@ textarea[name="message"]
 {
 	font-weight: bold;
 	font-size: 18px;
-	color: lightblue;
+	color: #4aaaa5;
 	margin-left: 10px;
 }
 
@@ -352,7 +376,7 @@ textarea[name="message"]
 {
 	font-weight: bold;
 	font-size: 18px;
-	color: lightblue;
+	color: #4aaaa5;
 	margin-left: 10px;
 
 }
